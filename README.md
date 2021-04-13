@@ -38,6 +38,14 @@ It is a structure for log in app. Pull this repo and custome it like you want.
 [⛱][log] [2021-04-13 05:49:01 +0000] [ViewController.swift] [NSOperationQueue Main Queue] viewDidLoad() ► a: 1000
 ```
 
+## SlackConsoleProvider
+
+```swift
+
+console.provider = SlackConsoleProvider(url: "https://hooks.slack.com/services/(your slack incoming webhook url)", channel: "#dev", username: UIDevice.current.name)
+
+```
+
 ## Custom Provider
 
 ```swift
