@@ -9,7 +9,7 @@ import Foundation
 
 public let console: Console = Console(provider: DefaultConsoleProvider())
 
-public struct Console {
+public class Console {
     
     public var provider: ConsoleProvider
     
