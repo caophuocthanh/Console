@@ -7,7 +7,7 @@ It is a structure for log in app. Pull this repo and custome it like you want.
 - [x] Provide an provider to custom log
 - [x] DefaultConsoleProvider
 - [ ] StorageConsoleProvider // storage logs by StorageConsoleProvider
-- [ ] SlackConsoleProvider // push logs to Slack by custom provider SlackConsoleProvider
+- [x] SlackConsoleProvider // push logs to Slack by custom provider SlackConsoleProvider
 
 ### How it work
 
