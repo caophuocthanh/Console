@@ -42,7 +42,11 @@ It is a structure for log in app. Pull this repo and custome it like you want.
 
 ```swift
 
-console.provider = SlackConsoleProvider(url: "https://hooks.slack.com/services/(your slack incoming webhook url)", channel: "#dev", username: UIDevice.current.name)
+        console.provider = SlackConsoleProvider(
+            url: "https://hooks.slack.com/services/(your slack incoming webhook url)",
+            channel: "#dev",
+            username: UIDevice.current.name
+        )
 
 ```
 
