@@ -37,6 +37,8 @@ class ViewController: UIViewController {
         
         //console.provider = YourCustomConsoleProvider()
         
+        //console.provider = SlackConsoleProvider(url: "https://hooks.slack.com/services/(your slack incoming webhook url)", channel: "#dev", username: UIDevice.current.name)
+        
         console.log("log", 1, "hello", "who you are", Date(), self)
         
         console.mearsure {

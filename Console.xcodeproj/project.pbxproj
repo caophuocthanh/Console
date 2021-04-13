@@ -22,6 +22,7 @@
 		7398F4E1262556E40071D9B3 /* ConsoleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398F4E0262556E40071D9B3 /* ConsoleProvider.swift */; };
 		7398F4E626255BA80071D9B3 /* DefaultConsoleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398F4E526255BA80071D9B3 /* DefaultConsoleProvider.swift */; };
 		7398F4ED262561440071D9B3 /* ThreadExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398F4EC262561440071D9B3 /* ThreadExtension.swift */; };
+		7398F4F626256C2C0071D9B3 /* SlackConsoleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398F4F526256C2C0071D9B3 /* SlackConsoleProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		7398F4E0262556E40071D9B3 /* ConsoleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleProvider.swift; sourceTree = "<group>"; };
 		7398F4E526255BA80071D9B3 /* DefaultConsoleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultConsoleProvider.swift; sourceTree = "<group>"; };
 		7398F4EC262561440071D9B3 /* ThreadExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadExtension.swift; sourceTree = "<group>"; };
+		7398F4F526256C2C0071D9B3 /* SlackConsoleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackConsoleProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,8 +197,7 @@
 		7398F4EA262561140071D9B3 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				7398F4E0262556E40071D9B3 /* ConsoleProvider.swift */,
-				7398F4E526255BA80071D9B3 /* DefaultConsoleProvider.swift */,
+				7398F4F426256C150071D9B3 /* Providers */,
 				7398F49C2625391D0071D9B3 /* Console.swift */,
 			);
 			path = Public;
@@ -208,6 +209,16 @@
 				7398F4EC262561440071D9B3 /* ThreadExtension.swift */,
 			);
 			path = Internal;
+			sourceTree = "<group>";
+		};
+		7398F4F426256C150071D9B3 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				7398F4E0262556E40071D9B3 /* ConsoleProvider.swift */,
+				7398F4E526255BA80071D9B3 /* DefaultConsoleProvider.swift */,
+				7398F4F526256C2C0071D9B3 /* SlackConsoleProvider.swift */,
+			);
+			path = Providers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,6 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7398F4F626256C2C0071D9B3 /* SlackConsoleProvider.swift in Sources */,
 				7398F4E1262556E40071D9B3 /* ConsoleProvider.swift in Sources */,
 				7398F4ED262561440071D9B3 /* ThreadExtension.swift in Sources */,
 				7398F4E626255BA80071D9B3 /* DefaultConsoleProvider.swift in Sources */,
