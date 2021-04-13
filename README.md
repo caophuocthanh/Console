@@ -41,7 +41,7 @@ It is a structure for log in app. Pull this repo and custome it like you want.
 ## Custom Provider
 
 ```swift
-public struct DefaultConsoleProvider: ConsoleProvider {
+public struct YourCustomConsoleProvider: ConsoleProvider {
     public func mearsure(name: String?, file: String, function: String, interval: TimeInterval) {
         print("[🍭][mearsure]","[\(Date())]","[\(file.components(separatedBy: "/").last ?? "")]","[\(Thread.current.name)] \(function)", name ?? "", "► \(interval) seconds")
     }
@@ -62,7 +62,7 @@ public struct DefaultConsoleProvider: ConsoleProvider {
     }
 }
 
-console.provider = DefaultConsoleProvider()
+console.provider = YourCustomConsoleProvider()
 
 ```
 
