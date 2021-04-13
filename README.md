@@ -12,7 +12,7 @@ It is a structure for log in app. Pull this repo and custome it like you want.
 ### How it work
 
 ```swift
-        console.log("log", 1)
+        console.log("log", 1, "hello", "who you are", Date(), self)
         
         console.mearsure {
             sleep(1)
