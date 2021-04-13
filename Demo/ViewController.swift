@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        console.log("log", 1)
+        console.log("log", 1, "hello", "who you are", Date(), self)
         
         console.mearsure {
             sleep(1)
