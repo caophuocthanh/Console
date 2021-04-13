@@ -3,11 +3,11 @@ It is a structure for log in app. Pull this repo and custome it like you want.
 
 ## Todo
 
-[x] Console log cumtom
-[x] Provide an provider to custom log
-[x] DefaultConsoleProvider
-[ ] StorageConsoleProvider // storage logs by StorageConsoleProvider
-[ ] SlackConsoleProvider // push logs to Slack by custom provider SlackConsoleProvider
+- [x] Console log cumtom
+- [x] Provide an provider to custom log
+- [x] DefaultConsoleProvider
+- [ ] StorageConsoleProvider // storage logs by StorageConsoleProvider
+- [ ] SlackConsoleProvider // push logs to Slack by custom provider SlackConsoleProvider
 
 ### How it work
 
